@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="session">
+        <p class="s1">Session</p>
+        <div class="display">
+            <p id="hr" class="hour">25</p>:<p id="sec" class="sec">00</p>
+        </div>
+    </div>
+    <center>
+        <div class="secs">
+            <p>Session length</p>
+        </div>
+    </center>
+    <div class="container">
+        <button onclick="subs()">-</button>
+        <div id="number-display1">25</div>
+        <button onclick="adds()">+</button>
+    </div>
+    <center>
+        <div class="secs">
+            <p>break</p>
+        </div>
+    </center>
+    <div class="container">
+        <button onclick="subb()">-</button>
+        <div id="number-display2"><p id="number-display">8</p></div>
+        <button onclick="addb()">+</button>
+    </div>
+    <br>
+    <button class="start" id="start">Start</button>
+    <button class="reset" id="reset">reset</button>
+    <script src="./script.js"></script>
+</body>
+</html>

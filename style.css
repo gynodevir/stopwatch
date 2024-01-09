@@ -1,0 +1,82 @@
+.session {
+    background-color: black;
+    color: white;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.s1 {
+    font-size: 2rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add margin at the bottom */
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.hour,
+.sec {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.secs{
+    color: white;
+    background-color: rgb(44, 43, 43);
+    padding-top: 10px;
+}
+.container {
+    display: flex;
+    align-items: center;
+  }
+  button {
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    width: 30%;
+    background-color: green;
+    border: none;
+    padding-top: 10px;
+  }
+  #number-display1 {
+    font-size: 2rem;
+    margin: 0 20px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex; /* Added to make it a flex container */
+    text-align: center; /* Center text horizontally */
+    height: 100%; /* Make it take the full height of the container */
+    color: white;
+    background-color: black;
+    border: none; /* Remove the border */
+}
+#number-display2 {
+    font-size: 2rem;
+    margin: 0 20px;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    display: flex; /* Added to make it a flex container */
+    text-align: center; /* Center text horizontally */
+    height: 100%; /* Make it take the full height of the container */
+    color: white;
+    background-color: black;
+    border: none; /* Remove the border */
+}
+.start{
+    width :50%
+}
+.reset{
+    width :49%
+    
+}
