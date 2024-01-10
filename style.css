@@ -1,3 +1,4 @@
+/* Base Styles */
 .session {
     background-color: black;
     color: white;
@@ -10,9 +11,9 @@
 }
 
 .s1 {
-    font-size: 2rem; /* Adjust the font size as needed */
+    font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 10px; /* Add margin at the bottom */
+    margin-bottom: 10px;
 }
 
 .display {
@@ -29,16 +30,19 @@
     font-weight: bold;
     margin: 0 5px;
 }
-.secs{
+
+.secs {
     color: white;
     background-color: rgb(44, 43, 43);
     padding-top: 10px;
 }
+
 .container {
     display: flex;
     align-items: center;
-  }
-  button {
+}
+
+button {
     font-size: 1.5rem;
     padding: 10px;
     cursor: pointer;
@@ -46,37 +50,59 @@
     background-color: green;
     border: none;
     padding-top: 10px;
-  }
-  #number-display1 {
-    font-size: 2rem;
-    margin: 0 20px;
-    width: 40%;
-    align-items: center;
-    justify-content: center;
-    display: flex; /* Added to make it a flex container */
-    text-align: center; /* Center text horizontally */
-    height: 100%; /* Make it take the full height of the container */
-    color: white;
-    background-color: black;
-    border: none; /* Remove the border */
 }
+
+#number-display1,
 #number-display2 {
     font-size: 2rem;
     margin: 0 20px;
     width: 40%;
     align-items: center;
     justify-content: center;
-    display: flex; /* Added to make it a flex container */
-    text-align: center; /* Center text horizontally */
-    height: 100%; /* Make it take the full height of the container */
+    display: flex;
+    text-align: center;
+    height: 100%;
     color: white;
     background-color: black;
-    border: none; /* Remove the border */
+    border: none;
 }
-.start{
-    width :50%
+
+.start {
+    width: 50%;
 }
-.reset{
-    width :49%
-    
+
+.reset {
+    width: 49%;
 }
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    /* Adjust styles for small screens, e.g., smartphones */
+    .session {
+        padding-bottom: 5%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #number-display1,
+    #number-display2 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .start,
+    .reset {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium-sized screens, e.g., tablets */
+    .session {
+        padding-bottom: 8%;
+    }
+}
+
+/* Add more media queries as needed for larger screens */
